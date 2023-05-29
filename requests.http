@@ -1,0 +1,30 @@
+### Get By id
+GET http://localhost:8080/api/student/2
+
+
+### add new student
+POST http://localhost:8080/api/student
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "student name"
+}
+
+### add new student short
+POST http://localhost:8080/api/student
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "s"
+}
+
+
+### add new student empty
+POST http://localhost:8080/api/student
+Content-Type: application/json
+
+{
+    "id": 5
+}
